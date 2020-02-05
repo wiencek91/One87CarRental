@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en, pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONE 87 Car Rental</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" integrity="sha256-zmfNZmXoNWBMemUOo1XUGFfc0ihGGLYdgtJS3KCr/l0=" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/gallery.css"> -->
+</head>
+<body>
+
+    <header class="top">
+        <div class="main_width">
+          <div class="logo">
+              <p>
+                <a href="index.html"><i class="fas fa-car"></i><span class="colortext bold">O</span>ne <span class="colortext bold">87</span> Car Rental</a>
+              </p>
+          </div>
+          <nav class="menu">
+              <button id="menu_trigger"><i class="fas fa-bars"></i></button>
+              <ul class="menu_list">
+                  <li><a href="index.html#fleet">Flota</a></li>
+                  <li><a href="pricing.html">Cennik</a></li>
+                  <li><a href="#">Galeria</a></li>
+                  <li><a href="regulations.html">Regulamin</a></li>
+                  <li><a href="contact.html">Kontakt</a></li>
+              </ul>
+          </nav>
+        </div>
+    </header>
+
+    <section class="automaticSlides">
+        <div class="mySlides bg1">
+          <div class="slide_box">
+              <h3>BMW M5</h3>
+              <p>już od <span class="redtext">349 zł</span> / dzień</p>
+          </div>
+        </div>
+        <div class="mySlides bg2">
+          <div class="slide_box">
+              <h3>Ford Fiesta</h3>
+              <p>już od <span class="redtext">79 zł</span> / dzień</p>
+          </div>
+        </div>
+        <div class="mySlides bg3">
+          <div class="slide_box">
+              <h3>Mercedes S-klasa</h3>
+              <p>już od <span class="redtext">299 zł</span> / dzień</p>
+          </div>
+        </div>
+        <div class="mySlides bg4">
+          <div class="slide_box">
+              <h3>Skoda Superb Combi</h3>
+              <p>już od <span class="redtext">149 zł</span> / dzień</p>
+          </div>
+        </div>
+        <div class="mySlides bg5">
+          <div class="slide_box">
+              <h3>Volkswagen Golf Combi</h3>
+              <p>już od <span class="redtext">119 zł</span> / dzień</p>
+          </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="main_width">
+            <div class="gallery_title">
+                <h2>Galeria</h2>
+            </div>
+            <div class="gallery_list">
+                <a class="lightbox" href="#bmw"><img src="images/bmw.jpg"/></a>
+                <a class="lightbox" href="#ford"><img src="images/ford.jpg"/></a>
+                <a class="lightbox" href="#mercedes"><img src="images/mercedes.jpg"/></a>
+                <a class="lightbox" href="#skoda"><img src="images/skoda.jpg"/></a>
+                <a class="lightbox" href="#volkswagen"><img src="images/volkswagen.jpg"/></a>
+                <div class="lightbox_target" id="bmw">
+                    <img src="images/bmw.jpg"/>
+                    <a class="lightbox_close" href="#"></a>
+                </div>
+                <div class="lightbox_target" id="ford">
+                    <img src="images/ford.jpg"/>
+                    <a class="lightbox_close" href="#"></a>
+                </div>
+                <div class="lightbox_target" id="mercedes">
+                    <img src="images/mercedes.jpg"/>
+                    <a class="lightbox_close" href="#"></a>
+                </div>
+                <div class="lightbox_target" id="skoda">
+                    <img src="images/skoda.jpg"/>
+                    <a class="lightbox_close" href="#"></a>
+                </div>
+                <div class="lightbox_target" id="volkswagen">
+                    <img src="images/volkswagen.jpg"/>
+                    <a class="lightbox_close" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="main_width">
+            <div class="copyrights">
+                <p>&copy; Copyright 2019 | All Rights Reserved - ONE 87 Car Rental</p>
+            </div>
+            <div class="mail">
+                <a href="mailto:wiencek91@wp.pl" class="send_mail"><i class="fas fa-envelope"></i>Napisz do nas!</a>
+            </div>
+            <div class="phone">
+                <a href="tel:+48618306370" class="call_us"><i class="fas fa-phone"></i>Zadzwoń do nas: <span id="normal">(61) 830 63 70</span></a>
+            </div>
+            <div class="footer_logo">
+                <p><a href="index.html"><span class="bold">O</span>NE <span class="bold">87</span> Car Rental</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
